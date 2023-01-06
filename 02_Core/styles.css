@@ -6,10 +6,23 @@ a {
   color: green;
 }
 
+/* pseudi selector */
+.link:visited {
+  color: silver;
+}
+
 #id {
   color: blue;
 }
 
 a {
   color: darkorange;
+}
+
+a:hover {
+  background-color: aquamarine;
+}
+
+a:active {
+  color: white;
 }
